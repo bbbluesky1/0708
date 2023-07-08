@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p class="header-logo">SamplePage</p>
+    </header>
+    <div class="eye-catch">
+        <p>テストテストテスト</p>
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+        
+    </div>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color: rgb(183, 225, 234);
+        }
+        body::-webkit-scrollbar {
+	        display:none;
+        }
+        header{
+            width:100vw;
+            height:10vh;
+            background-color: white;
+            box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+        .header-logo{
+            font-size: 2em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            color: rgb(112, 112, 248);
+            margin:0;
+            padding:0;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .eye-catch{
+            width:100vw;
+            height:40vh;
+            background-image: url(./river-8105970_1280.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            margin-bottom: 3%;
+        }
+        .eye-catch p{
+            font-size: 2em;
+            font-weight: 600;
+            color: white;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .box{
+            width:95vw;
+            min-height:100vh;
+            background-color: white;
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            margin-bottom: 1%;
+            padding: 5%;
+        }
+    </style>
+</body>
+</html>
